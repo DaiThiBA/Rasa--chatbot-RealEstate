@@ -1,0 +1,50 @@
+[
+  {
+    "name": "desired_rooms",
+    "pattern": "\\d+\\s*(?:phòng ngủ|phòng)"
+  },
+  {
+    "name": "desired_rooms",
+    "pattern": "có\\s*\\d+\\s*(?:phòng ngủ|phòng)"
+  },
+  {
+    "name": "desired_size",
+    "pattern": "\\d+\\s*(?:m2|mét vuông)"
+  },
+  {
+    "name": "desired_size",
+    "pattern": "diện tích\\s*\\d+\\s*(?:m2|mét vuông)"
+  },
+  {
+    "name": "desired_size",
+    "pattern": "nhà\\s*\\d+\\s*(?:m2|mét vuông)"
+  },
+  {
+    "name": "desired_toilets",
+    "pattern": "\\d+\\s*(?:nhà vệ sinh|toilet|wc)"
+  },
+  {
+    "name": "desired_toilets",
+    "pattern": "có\\s*\\d+\\s*(?:nhà vệ sinh|toilet|wc)"
+  },
+  {
+    "name": "house_details",
+    "pattern": "(\\d+)\\s*(?:m2|mét vuông)"
+  },
+  {
+    "name": "house_details",
+    "pattern": "(\\d+)\\s*(?:nhà vệ sinh|toilet|wc)"
+  },
+  {
+    "name": "house_details",
+    "pattern": "(\\d+)\\s*(?:phòng ngủ|phòng)"
+  },
+  {
+    "name": "house_size",
+    "pattern": "\\d+\\s*m2"
+  },
+  {
+    "name": "house_size",
+    "pattern": "\\d+\\s*mét\\s*vuông"
+  }
+]

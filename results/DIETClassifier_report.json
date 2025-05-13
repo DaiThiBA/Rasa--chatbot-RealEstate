@@ -1,0 +1,105 @@
+{
+  "user_age": {
+    "precision": 0.5555555555555556,
+    "recall": 0.6521739130434783,
+    "f1-score": 0.6,
+    "support": 23,
+    "confused_with": {
+      "user_income": 4
+    }
+  },
+  "user_name": {
+    "precision": 0.7333333333333333,
+    "recall": 0.4782608695652174,
+    "f1-score": 0.5789473684210527,
+    "support": 23,
+    "confused_with": {
+      "region_name": 2
+    }
+  },
+  "user_marital_status": {
+    "precision": 0.8305084745762712,
+    "recall": 0.98,
+    "f1-score": 0.8990825688073395,
+    "support": 50,
+    "confused_with": {}
+  },
+  "ward_name": {
+    "precision": 0.7784431137724551,
+    "recall": 0.7784431137724551,
+    "f1-score": 0.7784431137724551,
+    "support": 167,
+    "confused_with": {
+      "region_name": 10
+    }
+  },
+  "user_income": {
+    "precision": 0.7142857142857143,
+    "recall": 0.625,
+    "f1-score": 0.6666666666666666,
+    "support": 16,
+    "confused_with": {
+      "user_age": 6
+    }
+  },
+  "desired_rooms": {
+    "precision": 0.9016393442622951,
+    "recall": 0.9821428571428571,
+    "f1-score": 0.9401709401709402,
+    "support": 56,
+    "confused_with": {}
+  },
+  "area_name": {
+    "precision": 0.845360824742268,
+    "recall": 0.8541666666666666,
+    "f1-score": 0.8497409326424871,
+    "support": 96,
+    "confused_with": {
+      "ward_name": 6
+    }
+  },
+  "desired_toilets": {
+    "precision": 1.0,
+    "recall": 0.9038461538461539,
+    "f1-score": 0.9494949494949495,
+    "support": 52,
+    "confused_with": {
+      "desired_rooms": 5
+    }
+  },
+  "desired_size": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 62,
+    "confused_with": {}
+  },
+  "region_name": {
+    "precision": 0.6995073891625616,
+    "recall": 0.8114285714285714,
+    "f1-score": 0.7513227513227513,
+    "support": 175,
+    "confused_with": {
+      "ward_name": 5
+    }
+  },
+  "micro avg": {
+    "precision": 0.7933425797503467,
+    "recall": 0.7944444444444444,
+    "f1-score": 0.7938931297709924,
+    "support": 720
+  },
+  "macro avg": {
+    "precision": 0.8058633749690454,
+    "recall": 0.75654621454654,
+    "f1-score": 0.768053595796531,
+    "support": 720
+  },
+  "weighted avg": {
+    "precision": 0.8064703821655889,
+    "recall": 0.7944444444444444,
+    "f1-score": 0.7904858874340575,
+    "support": 720
+  },
+  "accuracy": 0.898936170212766
+}

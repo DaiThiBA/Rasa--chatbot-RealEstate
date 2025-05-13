@@ -1,0 +1,515 @@
+version: "3.1"
+
+nlu:
+  - intent: search_real_estate
+    examples: |
+      - Tôi muốn tìm nhà
+      - Tìm bất động sản
+      - Tôi muốn tìm mua bất động sản
+      - Tôi cần tìm nhà đất
+      - cho tôi xem nhà
+      - tìm kiếm bất động sản
+      - Có bất động sản nào phù hợp với tôi không
+      - Giúp tôi tìm một căn nhà
+      - Tôi đang có nhu cầu mua nhà
+      - Tư vấn giúp tôi mua bất động sản
+      - Tôi muốn đầu tư bất động sản
+      - Có dự án bất động sản nào tốt không
+      - Tìm căn hộ để ở
+      - Cần mua nhà gấp
+      - Tôi muốn xem các dự án bất động sản
+      - Có căn hộ nào phù hợp với tôi không
+      - Tôi đang tìm nhà để mua
+      - Tư vấn mua nhà
+      - Tôi cần tư vấn bất động sản
+      - Tìm nhà để đầu tư
+      - Bạn có thể tư vấn cho tôi về bất động sản không
+      - Dạo này thị trường bất động sản thế nào
+      - Tôi đang có ý định mua nhà
+      - Cho tôi xem một số dự án bất động sản
+      - Tôi muốn đầu tư vào căn hộ
+      - Tôi đang tìm hiểu về thị trường bất động sản
+      - Giới thiệu cho tôi vài căn hộ đẹp
+      - Tôi muốn mua nhà để ở
+      - Có căn hộ nào đang bán không
+      - Tôi cần tìm một căn nhà phù hợp
+      - Đang có nhu cầu mua bất động sản
+      - Tư vấn giúp tôi về việc mua nhà
+      - Tôi muốn xem các dự án đang mở bán
+      - Có căn hộ nào đang khuyến mãi không
+      - Tôi đang quan tâm đến bất động sản
+      - Cho tôi xem một số căn hộ đẹp
+      - Tôi muốn tìm hiểu về giá nhà đất
+      - Có dự án nào mới ra mắt không
+      - Tôi cần tư vấn đầu tư bất động sản
+      - Đang tìm nhà trong khu vực này
+      - Tôi muốn mua căn hộ để cho thuê
+      - Có căn hộ nào giá tốt không
+      - Tôi đang tìm nhà gần trung tâm
+      - Giới thiệu cho tôi vài dự án tốt
+      - Tôi muốn tìm căn hộ cao cấp
+      - Cần mua nhà mặt tiền
+      - Tìm nhà trong hẻm yên tĩnh
+      - Muốn mua đất nền dự án
+      - Tôi cần tìm mặt bằng kinh doanh
+      - Có căn hộ duplex nào không
+      - Tìm penthouse view đẹp
+      - Cần mua nhà phố thương mại
+      - Tôi muốn đầu tư shophouse
+      - Tìm căn hộ officetel
+      - Có biệt thự nào phù hợp không
+      - Tôi muốn mua đất nghỉ dưỡng
+      - Cần tìm nhà xưởng
+      - Tìm kho bãi cho thuê
+      - Có căn studio nào không
+      - Cho hỏi về giá nhà hiện tại
+      - Thị trường bất động sản dạo này thế nào
+      - Tôi đang phân vân có nên mua nhà không
+      - Tư vấn giúp tôi về đầu tư
+      - Có nên mua bất động sản lúc này không
+      - Giá nhà đang xuống hay lên vậy
+      - Khu vực nào đang phát triển
+      - Nên đầu tư vào đâu bây giờ
+      - Tôi muốn tham khảo một số dự án
+      - Cho tôi biết xu hướng thị trường
+      - Đang tìm hiểu thông tin
+      - Tôi muốn được tư vấn
+      - Có gì hot không bạn
+      - Dạo này làm ăn thế nào
+      - Thị trường ra sao
+      - Đầu tư kiểu gì bây giờ
+      - Nên bỏ tiền vào đâu
+      - Có dự án nào hay không
+      - Tham khảo chút
+      - Tìm hiểu thông tin
+      - Tôi muốn hỏi thăm về nhà đất
+      - Cho tôi xem thông tin khu này
+      - Bạn biết khu vực này không
+      - Tôi đang quan tâm đến một số dự án
+      - Có thể tư vấn cho tôi không
+      - Muốn tìm hiểu thêm
+      - Khu này xây dựng gì vậy
+      - Dự án này thế nào
+      - Có gì mới không
+      - Đang phát triển à
+      - Tôi muốn tìm nhà nhưng chưa biết khu nào
+      - Đang tìm mua nhà... mà chưa rõ giá cả
+      - Tư vấn giúp tôi... về bất động sản
+      - Tôi... à... đang muốn mua nhà
+      - Cho hỏi về... ừm... giá nhà
+      - Tìm nhà... mà không biết khu nào tốt
+      - Đang định mua... nhưng chưa rõ
+      - Tôi muốn... à... tìm căn hộ
+      - Có thể cho tôi... xem vài căn không
+      - Đang tính mua... mà còn phân vân
+      - Tôi đang làm ngân hàng và muốn tìm nhà
+      - Tôi có 2 con đang tìm căn hộ rộng rãi
+      - Đang ở thuê và muốn mua nhà riêng
+      - Tôi từ Hà Nội vào đây tìm nhà
+      - Đang có ý định chuyển việc nên muốn mua nhà gần công ty mới
+      - Tôi vừa cưới và đang tìm căn hộ
+      - Đang có em bé nên muốn tìm nhà rộng hơn
+      - Tôi làm IT và muốn mua nhà gần công ty
+      - Đang có khoản tiền tiết kiệm và muốn đầu tư bất động sản
+      - Tôi sắp về hưu nên muốn tìm nhà nghỉ dưỡng
+
+  - intent: inform_region
+    examples: |
+      - [Hà Nội](region_name)
+      - [TP HCM](region_name)
+      - [Đà Nẵng](region_name)
+      - [Tp Hồ Chí Minh](region_name)
+      - [Bình Dương](region_name)
+      - [Đồng Nai](region_name)
+      - [Thành phố Hồ Chí Minh](region_name)
+      - [Thành phố Hà Nội](region_name)
+      - [Thành phố Đà Nẵng](region_name)
+      - [Tỉnh Bình Dương](region_name)
+      - [Tỉnh Đồng Nai](region_name)
+      - [TP.HCM](region_name)
+      - [Tp. Hồ Chí Minh](region_name)
+      - [HN](region_name)
+      - Tôi muốn tìm ở [Sài Gòn](region_name)
+      - Đang tìm nhà tại [Hà Nội](region_name)
+      - Khu vực [Đà Nẵng](region_name)
+      - Nhà đất [Bình Dương](region_name)
+      - Bất động sản [Đồng Nai](region_name)
+      - Khu [Sài Thành](region_name)
+      - Vùng [Thủ đô](region_name)
+      - [Thành phố biển](region_name) Đà Nẵng
+      - [Thành phố mới](region_name) Bình Dương
+
+      # Cách gọi địa phương/thông tục
+      - [Sài Gòn](region_name)
+      - [Thủ đô](region_name)
+      - [Thánh địa](region_name) Bình Dương
+      - [Đất Thủ](region_name)
+      - [Thành phố mới](region_name)
+      - [Thành phố trẻ](region_name) Bình Dương
+      - [Đất mỏ](region_name) Đồng Nai
+      - [Paris nhỏ](region_name) Hà Nội
+      - [Thành phố sông Hàn](region_name)
+      - [Thành phố đáng sống](region_name)
+
+      # Cách nói có nhiễu/ngắt quãng
+      - Tôi muốn tìm ở... [Hà Nội](region_name)
+      - À... [Sài Gòn](region_name) ấy
+      - Chắc là... [Bình Dương](region_name)
+      - Ừm... [Đồng Nai](region_name) đó
+      - Để xem... [Đà Nẵng](region_name) nhé
+
+      # Cách nói kèm thông tin thừa
+      - Tôi đang sống ở [Hà Nội](region_name) và muốn mua nhà
+      - Đang làm việc tại [TP HCM](region_name) nên muốn định cư
+      - Mới chuyển vào [Bình Dương](region_name) công tác
+      - Có người quen ở [Đồng Nai](region_name) giới thiệu
+      - Nghe nói [Đà Nẵng](region_name) phát triển nên muốn đầu tư
+
+      # Cách nói theo vùng miền
+      - [Miền Bắc](region_name) thủ đô
+      - [Miền Nam](region_name) Sài thành
+      - [Miền Trung](region_name) thành phố biển
+      - [Phía Nam](region_name) công nghiệp
+      - [Phía Bắc](region_name) nghìn năm văn hiến
+
+      # Cách nói theo đặc điểm
+      - [Thành phố công nghiệp](region_name) Bình Dương
+      - [Thành phố cảng](region_name) Đà Nẵng
+      - [Thành phố di sản](region_name) Hà Nội
+      - [Thành phố năng động](region_name) Sài Gòn
+      - [Vùng kinh tế trọng điểm](region_name) Đồng Nai
+
+      # Cách nói theo xu hướng
+      - [Thành phố thông minh](region_name) Bình Dương
+      - [Đô thị xanh](region_name) Đà Nẵng
+      - [Trung tâm tài chính](region_name) Sài Gòn
+      - [Thủ phủ công nghệ](region_name) Hà Nội
+      - [Vùng đô thị vệ tinh](region_name) Đồng Nai
+
+      # Cách nói theo tiềm năng
+      - [Thành phố tương lai](region_name) Bình Dương
+      - [Điểm đến đầu tư](region_name) Đà Nẵng
+      - [Trung tâm phát triển](region_name) Sài Gòn
+      - [Vùng đất tiềm năng](region_name) Đồng Nai
+      - [Đô thị hiện đại](region_name) Hà Nội
+
+  - intent: inform_area
+    examples: |
+      # Quận có số (TPHCM)
+      - [Quận 1](area_name)
+      - [Quận 2](area_name)
+      - [Quận 3](area_name)
+      - [Quận 4](area_name)
+      - [Quận 5](area_name)
+      - [Quận 6](area_name)
+      - [Quận 7](area_name)
+      - [Quận 8](area_name)
+      - [Quận 9](area_name)
+      - [Quận 10](area_name)
+      - [Quận 11](area_name)
+      - [Quận 12](area_name)
+      - [Quận Bình Tân](area_name)
+      - [Quận Bình Thạnh](area_name)
+      - [Quận Gò Vấp](area_name)
+      - [Quận Phú Nhuận](area_name)
+      - [Quận Tân Bình](area_name)
+      - [Quận Tân Phú](area_name)
+      - [Quận Thủ Đức](area_name)
+      - tôi muốn tìm ở [Quận 7](area_name)
+      - khu vực [Quận 2](area_name)
+      - tại [Quận 1](area_name)
+      - không cần tìm quận huyện
+      - bỏ qua quận huyện
+      - không cần chọn quận
+      - skip quận
+      - Tôi đang tìm ở [Quận 7](area_name)
+      - Muốn mua nhà tại [Quận 2](area_name)
+      - Khu vực [Quận Bình Thạnh](area_name)
+      - Đang quan tâm [Quận Tân Bình](area_name)
+      - Nhà đất [Quận Gò Vấp](area_name)
+      - Tìm trong [Quận Phú Nhuận](area_name)
+      - Khu [Quận 1](area_name)
+      - Vùng [Quận Thủ Đức](area_name)
+      - Bất động sản [Quận 9](area_name)
+      - Căn hộ [Quận 4](area_name)
+      - Dự án ở [Quận 8](area_name)
+      - Nhà trong [Quận 3](area_name)
+      - Khu [Quận nhất](area_name)
+      - [Quận trung tâm](area_name)
+      - [Khu Đông](area_name) Sài Gòn
+      - [Khu Nam](area_name) thành phố
+      - [Khu phía Tây](area_name)
+      - Vùng [ven](area_name)
+      - [Khu công nghiệp](area_name)
+
+  - intent: inform_ward  
+    examples: |
+      # Tên phường cơ bản
+      - [Dịch Vọng](ward_name)
+      - [Bến Nghé](ward_name)
+      - [Phường Bến Nghé](ward_name)
+      - [Phường Đa Kao](ward_name)
+      - [Phường Bến Thành](ward_name)
+      - [Phường Nguyễn Thái Bình](ward_name)
+      - [Phường Phạm Ngũ Lão](ward_name)
+
+      # Cách nói có nhiễu/ngắt quãng
+      - Tôi muốn tìm ở... [Phường Tân Định](ward_name)
+      - À... [Phường Cầu Kho](ward_name) đó
+      - Chắc là... [Phường Cô Giang](ward_name)
+      - Ừm... [Phường Nguyễn Cư Trinh](ward_name)
+      - Để xem... [Phường Cầu Ông Lãnh](ward_name)
+
+      # Cách nói kèm thông tin thừa
+      - Đang ở [Phường Bến Thành](ward_name), muốn mua nhà gần đây
+      - Công ty tôi ở [Phường Đa Kao](ward_name) nên muốn tìm gần đó
+      - Có người quen ở [Phường Tân Định](ward_name) giới thiệu
+      - Nghe nói [Phường Bến Nghé](ward_name) đang phát triển
+      - Khu vực [Phường Cầu Kho](ward_name) có nhiều tiện ích
+
+      # Cách gọi theo đặc điểm
+      - [Khu phố Tây](ward_name) sầm uất
+      - [Phố cổ](ward_name) trung tâm
+      - [Khu thương mại](ward_name) nhộn nhịp
+      - [Làng đại học](ward_name) trẻ trung
+      - [Khu công nghệ cao](ward_name) hiện đại
+      - [Khu đô thị mới](ward_name) cao cấp
+      - [Khu dân cư](ward_name) yên tĩnh
+
+      # Cách nói theo vị trí
+      - [Phường trung tâm](ward_name)
+      - [Khu vực nội thành](ward_name)
+      - [Phường ven sông](ward_name)
+      - [Khu phố cổ](ward_name)
+      - [Phường ven biển](ward_name)
+
+      # Cách nói theo tiện ích
+      - [Khu phố ẩm thực](ward_name)
+      - [Phường có chợ lớn](ward_name)
+      - [Khu trung tâm thương mại](ward_name)
+      - [Phường có công viên](ward_name)
+      - [Khu vực có trường học](ward_name)
+
+      # Cách nói theo xu hướng phát triển
+      - [Phường đang lên](ward_name)
+      - [Khu vực mới phát triển](ward_name)
+      - [Phường có nhiều dự án](ward_name)
+      - [Khu đô thị kiểu mẫu](ward_name)
+      - [Phường đang quy hoạch](ward_name)
+
+      # Cách nói theo đặc trưng văn hóa
+      - [Phường văn hóa](ward_name)
+      - [Khu phố nghệ thuật](ward_name)
+      - [Phường di tích](ward_name)
+      - [Khu phố đèn lồng](ward_name)
+      - [Phường làng nghề](ward_name)
+
+      # Cách nói mơ hồ/không chắc chắn
+      - Hình như là [Phường Bến Nghé](ward_name)
+      - Có thể là [Phường Đa Kao](ward_name)
+      - Tôi nghĩ là [Phường Tân Định](ward_name)
+      - Không rõ lắm nhưng là [Phường Cầu Kho](ward_name)
+      - Nếu không nhầm thì [Phường Cô Giang](ward_name)
+
+  - intent: provide_multiple_info
+    examples: |
+      - À... tôi tên [Hùng](user_name), năm nay... [35](user_age) tuổi
+      - [Mai](user_name) đây... [28](user_age), [độc thân](user_marital_status)... thu nhập tầm [25](user_income)
+      - Ừm... [Tuấn](user_name), [40](user_age) tuổi... [đã kết hôn có con](user_marital_status)
+      - Tôi... [Hải](user_name)... [32](user_age), lương [30](user_income) triệu
+      - Tôi là [Nam](user_name), đang làm ngân hàng, [25](user_age) tuổi, thu nhập [35](user_income) triệu
+      - [Lan](user_name) đây, làm kế toán được 5 năm, [28](user_age) tuổi, [độc thân](user_marital_status)
+      - [Minh](user_name) [35](user_age) tuổi, đang làm quản lý, [đã có gia đình](user_marital_status), lương [45](user_income)
+      - Tôi [Hương](user_name), làm IT 3 năm, [27](user_age) tuổi, [độc thân](user_marital_status), thu nhập [40](user_income)
+      - Thu nhập [50](user_income) triệu, tôi [Dũng](user_name), [đã có gia đình](user_marital_status), [42](user_age) tuổi
+      - [Độc thân](user_marital_status), [Thảo](user_name), lương [35](user_income), năm nay [29](user_age)
+      - Lương [60](user_income) triệu, [45](user_age) tuổi, [Phong](user_name), [đã kết hôn có con](user_marital_status)
+      - [Hà](user_name) [30](user_age) tuổi thôi, chưa lập gia đình
+      - [Tùng](user_name) đây, [đã có gia đình](user_marital_status), 2 con, thu nhập [40](user_income)
+      - Tôi [Mai](user_name), mới ly hôn, [35](user_age) tuổi, lương [45](user_income)
+      - [Đức](user_name), [độc thân](user_marital_status), đang thuê trọ, thu nhập [25](user_income)
+      - Chào bạn, tôi họ Nguyễn tên [Huy](user_name), sinh năm 88 tức là [35](user_age) tuổi
+      - [Thủy](user_name) nè, mới chuyển công tác vào đây, [28](user_age), [độc thân](user_marital_status)
+      - [Sơn](user_name) đây, vợ chồng thu nhập tầm [80](user_income) triệu, [đã kết hôn có con](user_marital_status)
+      - Tôi tên [Linh](user_name), làm sale bất động sản, [32](user_age) tuổi, thu nhập không cố định khoảng [45](user_income)
+      - [An](user_name) đây, [khoảng 30](user_age) tuổi, thu nhập tầm [30-40](user_income) triệu
+      - [Hồng](user_name), [gần 40](user_age), [đã có gia đình](user_marital_status), lương tầm [50](user_income)
+      - [Thành](user_name), [u40](user_age), [đã kết hôn có con](user_marital_status), thu nhập không cố định
+      - [Nga](user_name), [trên 35](user_age), [độc thân](user_marital_status), lương khoảng [40](user_income)
+
+  - intent: greet
+    examples: |
+      - xin chào
+      - chào bạn
+      - hello
+      - hi
+      - hey
+      - chào
+      - alo
+      - chào em
+
+  - intent: affirm
+    examples: |
+      - có
+      - đúng
+      - được
+      - ok
+      - vâng
+      - ừ
+      - đồng ý
+      - chính xác
+      - được rồi
+
+  - intent: provide_house_info
+    examples: |
+      - Diện tích [80](desired_size) m2 [2](desired_rooms) phòng ngủ [2](desired_toilets) nhà vệ sinh
+      - Nhà [100](desired_size) m2 [3](desired_rooms) phòng [2](desired_toilets) toilet
+      - [90](desired_size) m2 [2](desired_rooms) phòng ngủ [1](desired_toilets) wc
+      - Cần nhà [120](desired_size) mét vuông [2](desired_rooms) phòng [2](desired_toilets) nhà vệ sinh
+      - Tìm nhà [150](desired_size) m2 [4](desired_rooms) phòng ngủ [3](desired_toilets) toilet
+      - Diện tích [80](desired_size) m2
+      - [90](desired_size) mét vuông
+      - Cần nhà [100](desired_size) m2
+      - Khoảng [120](desired_size) mét vuông
+      - Cần căn [80](desired_size)m2 [2](desired_rooms) phòng ngủ
+      - Nhà [100](desired_size) mét vuông [3](desired_rooms) phòng
+      - Diện tích [120](desired_size)m2 có [4](desired_rooms) phòng ngủ
+      - [150](desired_size) mét vuông [3](desired_rooms) phòng
+      - Nhà [100](desired_size)m2 [2](desired_toilets) toilet
+      - Diện tích [80](desired_size) mét vuông [2](desired_toilets) wc
+      - Cần căn [120](desired_size)m2 có [3](desired_toilets) nhà vệ sinh
+      - [2](desired_rooms) phòng ngủ
+      - Cần [3](desired_rooms) phòng
+      - Khoảng [4](desired_rooms) phòng ngủ
+      - Tầm [2](desired_rooms) phòng
+      - Muốn [3](desired_rooms) phòng ngủ
+      - [2](desired_toilets) nhà vệ sinh
+      - [2](desired_toilets) toilet
+      - [2](desired_toilets) wc
+      - Cần [3](desired_toilets) nhà vệ sinh
+      - Khoảng [2](desired_toilets) toilet
+      - Cần nhà diện tích [100](desired_size)m2
+      - Muốn tìm nhà [80](desired_size) mét vuông
+      - Tìm nhà có [3](desired_rooms) phòng ngủ
+      - Cần mua nhà [2](desired_toilets) toilet
+      - Diện tích khoảng [100](desired_size)m2
+      - Nhà rộng [80](desired_size) mét vuông
+      - Số phòng ngủ [3](desired_rooms) phòng
+      - Có [2](desired_toilets) phòng vệ sinh
+      - Tôi muốn tìm nhà diện tích [85](desired_size) m2, [2](desired_rooms) phòng ngủ, [2](desired_toilets) toilet
+      - Cần căn hộ [120](desired_size) mét vuông, [3](desired_rooms) phòng ngủ, [2](desired_toilets) nhà vệ sinh
+      - Tìm nhà khoảng [100](desired_size)m2 có [3](desired_rooms) phòng và [2](desired_toilets) wc
+      - Diện tích tầm [150](desired_size) mét vuông, [4](desired_rooms) phòng ngủ, [3](desired_toilets) toilet
+      - Nhà rộng [200](desired_size)m2, [5](desired_rooms) phòng ngủ và [4](desired_toilets) nhà vệ sinh
+      - Tôi đang tìm nhà khoảng [90](desired_size) mét vuông
+      - Cần căn hộ diện tích [110](desired_size)m2
+      - Muốn mua nhà rộng [130](desired_size) m2
+      - Tìm căn khoảng [160](desired_size) mét vuông
+      - Diện tích tầm [180](desired_size)m2
+      - Cần nhà [3](desired_rooms) phòng ngủ
+      - Tìm căn hộ có [4](desired_rooms) phòng
+      - Muốn mua nhà [2](desired_rooms) phòng ngủ
+      - Cần [5](desired_rooms) phòng để ở
+      - Tìm nhà [3](desired_rooms) phòng ngủ rộng rãi
+      - Cần nhà có [2](desired_toilets) nhà vệ sinh
+      - Muốn [3](desired_toilets) toilet
+      - Tìm căn có [4](desired_toilets) wc
+      - Cần [2](desired_toilets) phòng tắm
+      - Nhà phải có [3](desired_toilets) nhà vệ sinh
+      - Diện tích [100](desired_size)m2, [3](desired_rooms) phòng ngủ
+      - [140](desired_size) mét vuông có [4](desired_rooms) phòng
+      - Nhà [120](desired_size)m2 và [2](desired_toilets) wc
+      - Cần [3](desired_rooms) phòng, [2](desired_toilets) toilet
+      - [160](desired_size) m2 với [3](desired_toilets) nhà vệ sinh
+      - Cần căn [300](desired_size)m2, [8](desired_rooms) phòng ngủ, [6](desired_toilets) nhà vệ sinh cho đại gia đình
+      - Tìm căn hộ duplex [200](desired_size)m2, [4](desired_rooms) phòng, [3](desired_toilets) wc
+      - Studio [45](desired_size)m2, [1](desired_rooms) phòng, [1](desired_toilets) toilet
+      - Penthouse [400](desired_size)m2, [5](desired_rooms) phòng ngủ, [5](desired_toilets) phòng tắm
+      - Officetel [60](desired_size)m2, [2](desired_rooms) phòng làm việc, [1](desired_toilets) wc
+      - Ừm... tôi cần nhà khoảng... [120](desired_size) mét vuông... với [3](desired_rooms) phòng ngủ
+      - Diện tích... à... tầm [100](desired_size)m2... [2](desired_toilets) nhà vệ sinh
+      - Tôi muốn... [80](desired_size) mét vuông... và... [2](desired_rooms) phòng
+      - Nhà... khoảng [150](desired_size)m2... có [4](desired_rooms) phòng... [3](desired_toilets) wc
+      - [3](desired_toilets) toilet, diện tích [200](desired_size)m2, cần [5](desired_rooms) phòng ngủ
+      - Phòng ngủ [4](desired_rooms) phòng, [180](desired_size) mét vuông, [3](desired_toilets) nhà vệ sinh
+      - [2](desired_toilets) wc thôi, nhưng cần [140](desired_size)m2 với [3](desired_rooms) phòng
+      - Diện tích khoảng [80-100](desired_size) mét vuông
+      - Tầm [2-3](desired_rooms) phòng ngủ
+      - [1-2](desired_toilets) nhà vệ sinh là được
+      - Nhà rộng tầm [100++](desired_size)m2
+      - [Vài](desired_rooms) phòng ngủ thôi
+      - Nhà view đẹp, [150](desired_size)m2, [4](desired_rooms) phòng ngủ rộng rãi, [3](desired_toilets) toilet hiện đại
+      - Cần căn góc [120](desired_size) mét vuông, full nội thất, [3](desired_rooms) phòng, [2](desired_toilets) wc
+      - [200](desired_size)m2 hướng Đông Nam, [5](desired_rooms) phòng ngủ có ban công, [4](desired_toilets) toilet
+      - Penthouse [500](desired_size)m2, [6](desired_rooms) phòng master, [6](desired_toilets) phòng tắm sang trọng
+      - Căn góc duplex [250](desired_size)m2, [4](desired_rooms) phòng có phòng làm việc, [4](desired_toilets) wc
+      - Studio nhỏ xinh [35](desired_size)m2, [1](desired_rooms) phòng đa năng, [1](desired_toilets) toilet
+      - Đang tìm căn tầm [100](desired_size) mét vuông, chia được [3](desired_rooms) phòng, tiện nghi [2](desired_toilets) nhà vệ sinh
+      - Cần một căn nhà khoảng [150](desired_size)m2, đủ [4](desired_rooms) phòng cho gia đình, tiện nghi [3](desired_toilets) toilet
+      - Muốn tìm nhà rộng [200](desired_size) mét vuông, thiết kế [5](desired_rooms) phòng ngủ riêng biệt, đầy đủ [4](desired_toilets) wc
+      - [120](desired_size)m2 tầng trung, [3](desired_rooms) phòng view đẹp, [2](desired_toilets) toilet cao cấp
+      - Căn [180](desired_size) mét vuông nội thất cao cấp, [4](desired_rooms) phòng có tủ âm tường, [3](desired_toilets) wc đá hoa cương
+      - [150](desired_size)m2 full đồ, [3](desired_rooms) phòng có điều hòa, [3](desired_toilets) nhà vệ sinh hiện đại
+      - Nhà rộng rộng tí, tầm [100](desired_size)m2 là được
+      - Cần mấy phòng... chắc [3](desired_rooms) phòng là vừa
+      - Toilet thì... [2](desired_toilets) cái là đủ rồi
+      - Diện tích thì càng rộng càng tốt, ít nhất [150](desired_size) mét vuông
+      - Phòng nhiều nhiều chút, [4-5](desired_rooms) phòng gì đó
+      
+  - intent: goodbye
+    examples: |
+      - tạm biệt
+      - chào tạm biệt
+      - tạm biệt nhé
+      - hẹn gặp lại
+      - bye
+      - goodbye
+
+  - intent: deny
+    examples: |
+      - không
+      - không cần
+      - thôi
+      - không phải
+      - không đúng
+      - không muốn
+      - bỏ qua
+      - skip
+      - pass
+      - ko cần
+      - k cần
+
+  - intent: bot_challenge
+    examples: |
+      - bạn có phải là bot không?
+      - bạn là người hay máy?
+      - tôi đang nói chuyện với bot à?
+      - đây có phải là chatbot không?
+
+  - regex: house_size
+    examples: |
+      - \d+\s*m2
+      - \d+\s*mét\s*vuông
+
+  - regex: desired_size
+    examples: |
+      - \d+\s*(?:m2|mét vuông)
+      - diện tích\s*\d+\s*(?:m2|mét vuông)
+      - nhà\s*\d+\s*(?:m2|mét vuông)
+
+  - regex: desired_rooms
+    examples: |
+      - \d+\s*(?:phòng ngủ|phòng)
+      - có\s*\d+\s*(?:phòng ngủ|phòng)
+
+  - regex: desired_toilets  
+    examples: |
+      - \d+\s*(?:nhà vệ sinh|toilet|wc)
+      - có\s*\d+\s*(?:nhà vệ sinh|toilet|wc)
+
+  - regex: house_details
+    examples: |
+      - (\d+)\s*(?:m2|mét vuông)
+      - (\d+)\s*(?:phòng ngủ|phòng)
+      - (\d+)\s*(?:nhà vệ sinh|toilet|wc)
+

@@ -1,0 +1,306 @@
+[
+  {
+    "text": "Thị trường ra sao",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "inform_ward",
+      "confidence": 0.9991689920425415
+    }
+  },
+  {
+    "text": "HN",
+    "intent": "inform_region",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7085137367248535
+    }
+  },
+  {
+    "text": "Đang làm việc tại TP HCM nên muốn định cư",
+    "intent": "inform_region",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9759535789489746
+    }
+  },
+  {
+    "text": "Khu Nam thành phố",
+    "intent": "inform_area",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.999995231628418
+    }
+  },
+  {
+    "text": "Khu dân cư yên tĩnh",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9994596838951111
+    }
+  },
+  {
+    "text": "chào bạn",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.8937522172927856
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.5687907338142395
+    }
+  },
+  {
+    "text": "đúng",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9835792183876038
+    }
+  },
+  {
+    "text": "pass",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.716787576675415
+    }
+  },
+  {
+    "text": "Tôi đang sống ở Hà Nội và muốn mua nhà",
+    "intent": "inform_region",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9517718553543091
+    }
+  },
+  {
+    "text": "Đang ở Phường Bến Thành, muốn mua nhà gần đây",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9493654370307922
+    }
+  },
+  {
+    "text": "Khu phố Tây sầm uất",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "inform_area",
+      "confidence": 0.9998244643211365
+    }
+  },
+  {
+    "text": "Khu vực nội thành",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9999982118606567
+    }
+  },
+  {
+    "text": "chính xác",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9997429251670837
+    }
+  },
+  {
+    "text": "hẹn gặp lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform_ward",
+      "confidence": 0.839271605014801
+    }
+  },
+  {
+    "text": "Tìm penthouse view đẹp",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "provide_house_info",
+      "confidence": 0.8997787833213806
+    }
+  },
+  {
+    "text": "Cần mua nhà phố thương mại",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "inform_ward",
+      "confidence": 0.9900680780410767
+    }
+  },
+  {
+    "text": "Có gì mới không",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9831915497779846
+    }
+  },
+  {
+    "text": "Tôi từ Hà Nội vào đây tìm nhà",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9696952700614929
+    }
+  },
+  {
+    "text": "Bất động sản Đồng Nai",
+    "intent": "inform_region",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9999727010726929
+    }
+  },
+  {
+    "text": "Vùng ven",
+    "intent": "inform_area",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.8151894807815552
+    }
+  },
+  {
+    "text": "Làng đại học trẻ trung",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9999022483825684
+    }
+  },
+  {
+    "text": "ừ",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.544013261795044
+    }
+  },
+  {
+    "text": "bỏ qua",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.7189606428146362
+    }
+  },
+  {
+    "text": "Phía Nam công nghiệp",
+    "intent": "inform_region",
+    "intent_prediction": {
+      "name": "inform_area",
+      "confidence": 0.9810633659362793
+    }
+  },
+  {
+    "text": "Khu Đông Sài Gòn",
+    "intent": "inform_area",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "Khu phía Tây",
+    "intent": "inform_area",
+    "intent_prediction": {
+      "name": "inform_ward",
+      "confidence": 0.9999908208847046
+    }
+  },
+  {
+    "text": "Khu vực mới phát triển",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9999991655349731
+    }
+  },
+  {
+    "text": "Khu phố đèn lồng",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "inform_area",
+      "confidence": 0.9548248648643494
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.41051575541496277
+    }
+  },
+  {
+    "text": "Đang phát triển à",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9999935626983643
+    }
+  },
+  {
+    "text": "Đang có ý định chuyển việc nên muốn mua nhà gần công ty mới",
+    "intent": "search_real_estate",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.5969591736793518
+    }
+  },
+  {
+    "text": "Khu công nghiệp",
+    "intent": "inform_area",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.751448929309845
+    }
+  },
+  {
+    "text": "Dịch Vọng",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 0.9956396818161011
+    }
+  },
+  {
+    "text": "Khu đô thị mới cao cấp",
+    "intent": "inform_ward",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.9995877146720886
+    }
+  },
+  {
+    "text": "có",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "search_real_estate",
+      "confidence": 0.5050582885742188
+    }
+  },
+  {
+    "text": "đồng ý",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform_region",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "thôi",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "provide_multiple_info",
+      "confidence": 0.44387489557266235
+    }
+  }
+]

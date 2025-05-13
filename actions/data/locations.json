@@ -1,0 +1,6131 @@
+{
+  "head": {
+    "vars": [
+      "region_name",
+      "area_name",
+      "ward_name"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "An Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Long Xuyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "An Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Long Xuyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ Long"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Xuyên Mộc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước Thuận"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đất Đỏ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Phước Hải"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Bà Rịa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Hoà Long"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vũng Tàu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 8"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vũng Tàu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vũng Tàu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nguyễn An Ninh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vũng Tàu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thắng Nhất"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vũng Tàu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thắng Tam"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bà Rịa - Vũng Tàu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Phú Mỹ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bàu Bàng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Lai Uyên"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bàu Bàng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Lai Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Phú Giáo"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước Hoà"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Thắng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Dĩ An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Đông Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Dĩ An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đông Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Chuẩn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hưng Định"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Lái Thiêu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thuận Giao"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thuận An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Chánh Nghĩa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Thành"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoà Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Lợi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thọ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Dầu Một"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Định Hoà"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Chánh Phú Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Lợi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thới Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Định"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bến Cát"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Điền"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Tân Uyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Tân Uyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Phước Khánh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Dương"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Tân Uyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Vĩnh Tân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Phước"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Chơn Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Minh Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Phước"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Đồng Xoài"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tiến Thành"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Thiết"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mũi Né"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Thiết"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Hài"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Thiết"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thủy"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Thiết"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tiến Thành"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Qui Nhơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hải Cảng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Qui Nhơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Lê Lợi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Qui Nhơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nguyễn Văn Cừ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Qui Nhơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Ngô Mây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bình Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Qui Nhơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nhơn Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bạc Liêu"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Bạc Liêu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bắc Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Lạng Giang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Vôi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Bắc Ninh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Bắc Ninh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Võ Cường"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Cần Thơ"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thuỷ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Thủy"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Cần Thơ"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cái Răng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hưng Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Cần Thơ"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cái Răng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hưng Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Cần Thơ"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ninh Kiều"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Chương Mỹ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Chúc Sơn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Gia Lâm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Trâu Quỳ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Gia Lâm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đặng Xá"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hoài Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Khánh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hoài Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Thượng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hoài Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Di Trạch"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hoài Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đức Thượng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Mê Linh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Quang Minh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Mê Linh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tiền Phong"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Mê Linh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đại Thịnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Thanh Trì"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Ngọc Hồi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Thanh Trì"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Triều"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Thanh Trì"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tả Thanh Oai"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Thạch Thất"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Thạch Hoà"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đan Phượng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Liên Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đan Phượng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Lập"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đông Anh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Nam Hồng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đông Anh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đông Hội"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ba Đình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Giảng Võ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ba Đình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thành Công"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ba Đình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Phúc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cổ Nhuế 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cổ Nhuế 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Diễn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Xuân Tảo"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Xuân Đỉnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bắc Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đông Ngạc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cầu Giấy"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Dịch Vọng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cầu Giấy"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Dịch Vọng Hậu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cầu Giấy"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trung Hoà"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cầu Giấy"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Yên Hoà"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hai Bà Trưng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bạch Đằng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hai Bà Trưng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Minh Khai"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hai Bà Trưng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quỳnh Mai"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hai Bà Trưng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Tuy"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàn Kiếm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cửa Nam"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoàng Liệt"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoàng Văn Thụ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mai Động"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tương Mai"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Yên Sở"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đại Kim"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hoàng Mai"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Định Công"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Dương Nội"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hà Cầu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Kiến Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường La Khê"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mộ Lao"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nguyễn Trãi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú La"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Lương"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phúc La"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quang Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Văn Quán"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vạn Phúc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Yên Nghĩa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hà Đông"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Yết Kiêu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Giang Biên"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phúc Lợi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phúc Đồng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Sài Đồng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thượng Thanh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạch Bàn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Việt Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Long Biên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đức Giang"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cầu Diễn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mễ Trì"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ Đình 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ Đình 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phương Canh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trung Văn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tây Mỗ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Nam Từ Liêm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đại Mỗ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hạ Đình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Khương Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Khương Đình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nhân Chính"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phương Liệt"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thanh Xuân Bắc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thanh Xuân Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Xuân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thượng Đình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tây Hồ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thượng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tây Hồ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Xuân La"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Đống Đa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Láng Hạ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Đống Đa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nam Đồng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Đống Đa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phương Mai"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hà Nội"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Đống Đa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quang Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hòa Bình"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Hòa Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Sủ Ngòi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hưng Yên"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Văn Giang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hưng Yên"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Văn Giang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Nghĩa Trụ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hưng Yên"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Văn Giang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Xuân Quan"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hưng Yên"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Yên Mỹ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Nghĩa Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hải Phòng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện An Dương"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Đồng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hậu Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Châu Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Mái Dầm"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hậu Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Châu Thành A"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Phú Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Hậu Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Phụng Hiệp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cam Lâm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Cam Hải Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Cam Ranh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cam Nghĩa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Lộc Thọ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Hải"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Thọ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vĩnh Trường"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Vạn Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Vĩnh Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Khánh Hòa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nha Trang"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Vĩnh Thái"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Kiên Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Hà Tiên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Pháo Đài"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Kiên Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phú Quốc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Gành Dầu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Kiên Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Rạch Giá"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bến Lức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Bến Lức"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bến Lức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bến Lức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Lương Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bến Lức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Mỹ Yên"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bến Lức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước Lợi"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cần Giuộc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Hậu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cần Giuộc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Thượng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cần Giuộc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước Lý"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cần Đước"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Cần Đước"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Trạch"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Thủ Thừa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Thủ Thừa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Đức Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Hựu Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Mỹ Hạnh Bắc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Mỹ Hạnh Nam"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đức Hòa Hạ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đức Hòa Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Đức Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đức Lập Thượng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Long An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Tân An"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 6"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Lâm Đồng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Lâm Hà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Đinh Văn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Lâm Đồng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Bảo Lộc"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Lộc Phát"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Nam Định"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Nam Định"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cửa Bắc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Nghệ An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vinh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quang Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Nghệ An"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Vinh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Hưng Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Ninh Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Rang-Tháp Chàm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thanh Sơn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Ninh Thuận"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phan Rang-Tháp Chàm"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đô Vinh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Nam"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Núi Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tam Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Nam"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Điện Bàn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Điện Ngọc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Ngãi"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Quảng Ngãi"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nghĩa Chánh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Ninh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Hạ Long"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bãi Cháy"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Ninh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Hạ Long"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trần Hưng Đạo"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Quảng Ninh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Hạ Long"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Việt Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Sóc Trăng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Sóc Trăng"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 4"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Thanh Hóa"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thanh Hóa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đông Hải"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Thái Nguyên"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thái Nguyên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quang Vinh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Thừa Thiên Huế"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Huế"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tiền Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Châu Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Hương"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tiền Giang"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Mỹ Tho"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Tân Túc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Phú Tây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Bình Chánh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Bình Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phong Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Kiên"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Nhựt"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Quý Tây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Vĩnh Lộc A"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Bình Chánh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Vĩnh Lộc B"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hóc Môn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Bà Điểm"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hóc Môn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Tân Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hóc Môn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Xuân Thới Sơn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Hóc Môn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Xuân Thới Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhà Bè"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Nhơn Đức"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhà Bè"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phú Xuân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhà Bè"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước Kiển"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bến Nghé"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cô Giang"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nguyễn Cư Trinh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nguyễn Thái Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Định"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 1"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đa Kao"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 10"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 10"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 14"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 10"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 10"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 7"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 10"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 10"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 15"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 16"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 5"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 11"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 7"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Phú Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Thành"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạnh Lộc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạnh Xuân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thới An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trung Mỹ Tây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Chánh Hiệp"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Hưng Thuận"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Thới Nhất"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 12"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Đông Hưng Thuận"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 10"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 3"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Võ Thị Sáu"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 13"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 18"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 6"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 8"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 4"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 4"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 8"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 5"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 10"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 13"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 14"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 6"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 6"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Thuận"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thuận"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Hưng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Kiểng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Phong"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Thuận Tây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 7"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Thuận Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 14"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 16"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 4"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 5"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 6"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 7"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận 8"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 8"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 13"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 17"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 19"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 21"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 22"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 25"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 26"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Thạnh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Lạc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Lạc A"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Hưng Hoà A"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Hưng Hoà B"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Trị Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Trị Đông A"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Trị Đông B"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Tạo"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Bình Tân"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Tạo A"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 10"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 14"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 15"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 17"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 5"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Gò Vấp"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 7"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 1"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 5"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 7"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 8"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Phú Nhuận"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 10"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 11"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 12"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 13"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 14"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 15"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 3"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 4"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Bình"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 9"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Tân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Thọ Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Trung"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Sơn Kỳ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Quý"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Sơn Nhì"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Thành"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Thới Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Tân Phú"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tây Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Khánh (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Lợi Đông (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Phú (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Chiểu (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Thọ (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Trưng Tây (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Bình Trưng Đông (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cát Lái (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Bình Chánh (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Bình Phước (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hiệp Phú (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Linh Trung (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Linh Tây (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Linh Đông (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Long Bình (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Long Phước (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Long Thạnh Mỹ (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Long Trường (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phú Hữu (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Bình (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Long A (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Long B (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tam Bình (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tam Phú (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạnh Mỹ Lợi (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thảo Điền (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thủ Thiêm (Quận 2 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trường Thạnh (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Trường Thọ (Quận Thủ Đức cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Phú (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tăng Nhơn Phú A (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tp Hồ Chí Minh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Thủ Đức"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tăng Nhơn Phú B (Quận 9 cũ)"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Tây Ninh"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Tây Ninh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường 2"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Vĩnh Long"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị xã Bình Minh"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Cái Vồn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Vĩnh Phúc"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phúc Yên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hùng Vương"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Vĩnh Phúc"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Phúc Yên"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Ngọc Thanh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cẩm Lệ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Cẩm Lệ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Xuân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hải Châu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Cường Nam"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hải Châu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Thuận Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hải Châu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hải Châu  I"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hải Châu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thuận Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Hải Châu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạch Thang"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Liên Chiểu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Hiệp Nam"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Liên Chiểu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hòa Khánh Bắc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ngũ Hành Sơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoà Hải"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ngũ Hành Sơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoà Quý"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ngũ Hành Sơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Khuê Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Ngũ Hành Sơn"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mỹ An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Hải Bắc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Hải Tây"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Hải Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Mân Thái"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Nại Hiên Đông"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Mỹ"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Sơn Trà"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thọ Quang"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đà Nẵng"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Quận Thanh Khê"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thạc Gián"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đắk Lắk"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thị Xã Buôn Hồ"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Lạc"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Long Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã An Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Long Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Bình Sơn"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Long Thành"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Đức"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhơn Trạch"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Hiệp Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhơn Trạch"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phú Hội"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhơn Trạch"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phú Thạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhơn Trạch"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Phước An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Nhơn Trạch"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đại Phước"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Trảng Bom"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Thị trấn Trảng Bom"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Trảng Bom"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Giang Điền"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Trảng Bom"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Đồi 61"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Huyện Vĩnh Cửu"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Thạnh Phú"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường An Bình"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Hoá An"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Long Bình Tân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Phước Tân"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Quyết Thắng"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tam Hòa"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Thống Nhất"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Biên"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Phường Tân Hạnh"
+        }
+      },
+      {
+        "region_name": {
+          "type": "literal",
+          "value": "Đồng Nai"
+        },
+        "area_name": {
+          "type": "literal",
+          "value": "Thành phố Biên Hòa"
+        },
+        "ward_name": {
+          "type": "literal",
+          "value": "Xã Long Hưng"
+        }
+      }
+    ]
+  }
+}

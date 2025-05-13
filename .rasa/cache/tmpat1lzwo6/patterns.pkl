@@ -1,0 +1,14 @@
+[
+  {
+    "name": "house_size",
+    "pattern": "\\d+\\s*m2"
+  },
+  {
+    "name": "house_size",
+    "pattern": "\\d+\\s*met\\s*vuong"
+  },
+  {
+    "name": "house_size",
+    "pattern": "\\d+\\s*mét\\s*vuông"
+  }
+]

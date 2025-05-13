@@ -1,0 +1,135 @@
+version: "3.1"
+
+stories:
+  - story: complete search flow
+    steps:
+      # Bắt đầu với chào hoặc yêu cầu tìm kiếm
+      - or:
+        - intent: greet
+        - intent: search_real_estate
+      # Thu thập thông tin cá nhân
+      - action: action_initial_greeting
+      - intent: provide_multiple_info
+        entities:
+          - user_name
+          - user_age
+          - user_marital_status
+          - user_income
+      - action: action_process_multiple_info
+      - action: action_process_user_profile
+      - checkpoint: profile_collected
+
+      # Thu thập thông tin nhà 
+      - action: utter_ask_house_details
+      - intent: provide_house_info
+        entities:
+          - desired_size
+          - desired_rooms
+          - desired_toilets
+      - action: action_ask_house_details
+      - checkpoint: house_info_collected
+
+      # Thu thập location
+      - action: action_ask_region_name
+      - action: utter_ask_region_name
+      - intent: inform_region
+      - checkpoint: location_started
+
+      # Hỏi quận/huyện
+      - action: action_ask_area_name  
+      - action: utter_ask_area_name
+      - or:
+        - intent: inform_area
+          entities:
+            - area_name
+        - intent: deny
+      # Hỏi phường/xã
+      - action: action_ask_ward_name
+      - action: utter_ask_ward_name
+      - or:
+        - intent: inform_ward
+          entities:
+            - ward_name
+        - intent: deny
+      # Tiếp tục flow
+      - action: action_debug_search_info
+      - action: action_search_real_estate
+
+  - story: bot challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - story: location flow
+    steps:
+      - intent: inform_region
+      - action: action_ask_region_name
+      - intent: inform_area
+      - action: action_ask_area_name 
+      - intent: inform_ward
+      - action: action_ask_ward_name
+      - intent: deny
+      - action: action_process_location
+      - action: action_search_real_estate
+
+  - story: location flow with skip
+    steps:
+      - intent: inform_region
+        entities:
+          - region_name: "Đồng Nai" 
+      - action: action_ask_region_name
+      - intent: deny
+      - action: action_process_location
+      - action: action_search_real_estate
+
+  # Flow chính cho location collection
+  - story: complete location flow
+    steps:
+      # Bắt đầu với region
+      - intent: inform_region
+        entities:
+          - region_name: "Tp Hồ Chí Minh"  # Example entity
+      - action: action_ask_region_name
+      - action: action_ask_area_name  # Chuyển sang hỏi area
+
+      # Xử lý area
+      - intent: inform_area
+        entities:
+          - area_name: "Quận 7"  # Example entity
+      - action: action_ask_area_name
+      - action: action_ask_ward_name  # Chuyển sang hỏi ward
+
+      # Xử lý ward
+      - or:
+        - intent: inform_ward
+          entities:
+            - ward_name: "Phường Tân Thuận Đông"
+        - intent: deny  # Cho phép skip ward
+      - action: action_ask_ward_name
+      - action: action_process_location
+      - action: action_search_real_estate
+
+  # Flow khi user skip area
+  - story: skip area flow
+    steps:
+      - intent: inform_region
+        entities:
+          - region_name: "Tp Hồ Chí Minh"
+      - action: action_ask_region_name
+      - action: action_ask_area_name
+      - intent: deny  # User không muốn chọn area
+      - action: action_process_location
+      - action: action_search_real_estate
+
+  # Flow khi user skip ward  
+  - story: skip ward flow
+    steps:
+      - intent: inform_region
+      - action: action_ask_region_name
+      - action: action_ask_area_name
+      - intent: inform_area
+      - action: action_ask_area_name
+      - action: action_ask_ward_name
+      - intent: deny  # User không muốn chọn ward
+      - action: action_process_location
+      - action: action_search_real_estate

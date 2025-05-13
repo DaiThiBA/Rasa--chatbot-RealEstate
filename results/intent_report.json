@@ -1,0 +1,114 @@
+{
+  "deny": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.6956521739130435,
+    "support": 11,
+    "confused_with": {
+      "search_real_estate": 1,
+      "provide_multiple_info": 1
+    }
+  },
+  "inform_region": {
+    "precision": 0.8055555555555556,
+    "recall": 0.9206349206349206,
+    "f1-score": 0.8592592592592592,
+    "support": 63,
+    "confused_with": {
+      "search_real_estate": 3,
+      "inform_area": 1
+    }
+  },
+  "provide_house_info": {
+    "precision": 0.9893617021276596,
+    "recall": 1.0,
+    "f1-score": 0.9946524064171123,
+    "support": 93,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "inform_ward": 1
+    }
+  },
+  "inform_ward": {
+    "precision": 0.9090909090909091,
+    "recall": 0.8163265306122449,
+    "f1-score": 0.8602150537634408,
+    "support": 49,
+    "confused_with": {
+      "search_real_estate": 4,
+      "inform_region": 3
+    }
+  },
+  "provide_multiple_info": {
+    "precision": 0.9583333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9787234042553191,
+    "support": 23,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 9,
+    "confused_with": {
+      "deny": 3,
+      "inform_region": 2
+    }
+  },
+  "search_real_estate": {
+    "precision": 0.9107142857142857,
+    "recall": 0.9357798165137615,
+    "f1-score": 0.9230769230769231,
+    "support": 109,
+    "confused_with": {
+      "inform_region": 3,
+      "inform_ward": 2
+    }
+  },
+  "greet": {
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1-score": 0.7999999999999999,
+    "support": 8,
+    "confused_with": {
+      "search_real_estate": 1,
+      "inform_region": 1
+    }
+  },
+  "inform_area": {
+    "precision": 0.9302325581395349,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9090909090909092,
+    "support": 45,
+    "confused_with": {
+      "inform_region": 4,
+      "inform_ward": 1
+    }
+  },
+  "accuracy": 0.9086538461538461,
+  "macro avg": {
+    "precision": 0.9027097867770802,
+    "recall": 0.820556955058921,
+    "f1-score": 0.8429761038866916,
+    "support": 416
+  },
+  "weighted avg": {
+    "precision": 0.9126599950952066,
+    "recall": 0.9086538461538461,
+    "f1-score": 0.9058374470059379,
+    "support": 416
+  },
+  "micro avg": {
+    "precision": 0.9086538461538461,
+    "recall": 0.9086538461538461,
+    "f1-score": 0.9086538461538461,
+    "support": 416
+  }
+}

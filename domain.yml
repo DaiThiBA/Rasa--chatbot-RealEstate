@@ -1,0 +1,200 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - search_real_estate
+  - provide_multiple_info
+  - provide_name
+  - provide_age
+  - provide_income
+  - provide_marital_status
+  - provide_house_info
+  - provide_combined_info
+  - inform_region
+  - inform_area
+  - inform_ward
+  - deny
+
+entities:
+  - user_name
+  - user_age
+  - user_marital_status
+  - user_income
+  - customer_cluster
+  - work_latitude
+  - work_longitude
+  - desired_size
+  - desired_rooms
+  - desired_toilets
+  - region_name
+  - area_name
+  - ward_name
+  - location
+  - bedrooms
+
+slots:
+  user_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user_name
+  user_age:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user_age
+  user_marital_status:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user_marital_status
+  user_income:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user_income
+  customer_cluster:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: customer_cluster
+  work_latitude:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: work_latitude
+  work_longitude:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: work_longitude
+  desired_size:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: desired_size
+  desired_rooms:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: desired_rooms
+  desired_toilets:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: desired_toilets
+  region_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: region_name
+  area_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: area_name
+  ward_name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: ward_name
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+
+responses:
+  utter_greet:
+    - custom:
+        type: "greeting"
+        message: "Xin chào! Để tư vấn bất động sản phù hợp nhất, anh/chị có thể cho em biết thông tin cá nhân:"
+        required_info: {
+          "personal": ["Tên", "Tuổi", "Tình trạng hôn nhân", "Thu nhập"]
+        }
+
+  utter_goodbye:
+    - custom:
+        type: "goodbye"
+        message: "Tạm biệt! Chúc anh/chị một ngày tốt lành!"
+
+  utter_iamabot:
+    - custom:
+        type: "bot_identity"
+        message: "Em là chatbot tư vấn bất động sản."
+
+  utter_ask_house_details:
+    - custom:
+        type: "house_details_request"
+        message: "Anh/chị vui lòng cho biết yêu cầu về nhà:"
+        required_info:
+          details:
+            - "Diện tích mong muốn (m2)"
+            - "Số phòng ngủ"
+            - "Số phòng vệ sinh"
+        examples:
+          - "Diện tích 80m2 2 phòng ngủ 2 nhà vệ sinh"
+          - "90m2 3 phòng ngủ 2 wc"
+          - "Cần nhà 100m2"
+          - "100m2"
+
+  utter_ask_region_name:
+    - custom:
+        type: "location_request" 
+        message: "Cho em hỏi anh/chị muốn tìm vị trí ở Tỉnh/Thành phố nào?"
+        examples:
+          - "Tp Hồ Chí Minh"
+          - "Bình Dương"
+          - "Đồng Nai"
+
+  utter_ask_area_name:
+    - custom:
+        type: "location_request"
+        message: "Anh/chị muốn tìm ở Quận/Huyện nào?"
+        note: "Có thể bỏ qua bằng cách trả lời: 'không cần'"
+        examples:
+          - "Quận 1"
+          - "Thủ Đức"
+          - "Bình Thạnh"
+          - "không cần tìm quận huyện"
+
+  utter_ask_ward_name:
+    - custom:
+        type: "location_request"
+        message: "Anh/chị muốn tìm ở Phường/Xã nào?"
+        note: "Có thể bỏ qua bằng cách trả lời: 'không cần'"
+        examples:
+          - "Phường Bến Nghé"
+          - "Phường Đa Kao"
+          - "không cần tìm phường xã"
+
+actions:
+  - action_initial_greeting
+  - action_process_multiple_info
+  - action_process_user_profile
+  - action_search_real_estate
+  - action_ask_region_name
+  - action_ask_area_name
+  - action_ask_ward_name
+  - action_ask_house_details
+  - action_debug_search_info
+  - action_process_house_requirements
+  - action_process_location
+
+# File cấu hình chính của chatbot
+# Định nghĩa:
+# Intents (ý định người dùng)
+# Entities (thực thể)
+# Slots (biến lưu trữ)
+# Actions (hành động)
+# Responses (câu trả lời)
+# Forms (biểu mẫu)
+
+forms:
+  house_details_form:
+    required_slots:
+      - desired_size
+      - desired_rooms 
+      - desired_toilets
