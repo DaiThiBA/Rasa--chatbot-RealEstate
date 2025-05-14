@@ -1,5 +1,4 @@
 
-```markdown
 # 🏠 Rasa Chatbot – Real Estate Recommendation Assistant
 
 This project is a real estate chatbot built using the **Rasa framework**. The assistant is designed to help users receive personalized property suggestions through conversational AI.
@@ -91,4 +90,3 @@ You can now chat with the assistant!
 Maintained by [Quang Đại Thi](https://github.com/DaiThiBA)  
 If you have questions or suggestions, feel free to open an issue or contribute!
 
-```
